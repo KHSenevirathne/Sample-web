@@ -1,0 +1,41 @@
+/*styles for main section*/
+section.sec-main
+{
+    width: 100%;
+    height: 175vh;
+    background-image: url("../img/page_editor_bg.png");
+    background-size: cover;
+}
+.main-description-p
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    color: #414141;
+    transition: 1s;
+}
+/*stckey header*/
+.main-sticky-p
+{
+    padding-top: 7.5vh;
+    color: #414141;
+    transition: 1s;
+}
+.main-title
+{
+    padding-top: 10vh;
+}
+.main-title p
+{
+    text-align: center;
+    color: #414141;
+    font-size: 50px;
+}
+.s3-img-container-p
+{
+    display: flex;
+    padding-bottom: 20px;
+    width: 100%;
+    flex-direction: row;
+    margin: auto;
+}

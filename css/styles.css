@@ -1,0 +1,608 @@
+/*Embed site font*/
+@font-face
+{
+    font-family:"Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+/*styles for body*/
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:"Montserrat";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Navigation header*/
+
+.nav-header
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /*padding: 10px 50px;*/
+    box-sizing: border-box;
+    transition: 1s;
+    z-index: 1;
+}
+
+/*styles for stykey header*/
+.sticky
+{
+    background-color: white;
+    overflow:unset;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+    z-index: 1;
+}
+nav .h-logo
+{
+    float: left;
+}
+nav .h-logo img
+{
+    transition: 1s;
+}
+nav .h-title
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    font-size: 50px;
+    transition: 1s;
+}
+nav .st-title
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    float: left;
+    color:black;
+    font-size: 50px;
+    transition: 1s;
+}
+#h-icon
+{
+    transition: 1s;
+}
+nav ul
+{
+    float: right;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+nav ul li
+{
+    padding-top: 15px;
+    list-style: none;
+}
+.h-ul a
+{
+    color:white;
+}
+.st-anc a
+{
+    color:black;
+}
+nav ul li a
+{
+    line-height: 80px;
+    font-size: 23px;
+    font-weight:300;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: 1s;
+}
+nav ul li a.active
+{
+    color:dodgerblue;
+    font-weight: 500;
+}
+nav ul li a:hover
+{
+    color: deepskyblue;
+}
+
+/*Styles for Section 1*/
+
+section.sec1
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/main-background2.png");
+    background-size: cover;
+}
+.main-description
+{
+    padding-top: 43vh;
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+.main-sticky
+{
+    padding-top: 50vh;
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+.m-title
+{
+    font-size: 70px;
+    font-weight:500;
+    text-transform: uppercase;
+}
+.s-title
+{
+    font-size: 20px;
+}
+.m-buttons
+{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.m-buttons a
+{
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid white;
+    transition: 1s;
+}
+.m-buttons a:hover
+{
+    color: deepskyblue;
+    border: 2px solid deepskyblue;
+}
+
+.sec
+{
+    padding-top: 10%;;
+    padding-left: 15%;
+    padding-right: 15%;
+    transition: 1s;
+}
+.sec-img
+{
+    padding-top: 10%;;
+    padding-left: 9%;
+    padding-right: 9%;
+    transition: 1s;
+}
+
+/*Styles for Section 2*/
+
+.s2-container
+{
+    display: flex;
+    transition: 1s;
+}
+.s2-description
+{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    transition: 1s;
+}
+.s2-description
+{
+    width: 100%;
+    transition: 1s;
+}
+.s2-img
+{
+    padding-left: 50px;
+}
+.s2-img img
+{
+    width: 600px;
+}
+
+.s-q-container
+{
+    display: flex;
+    flex-direction:row;
+    margin: auto;
+    transition: 1s;
+}
+.name
+{
+    padding: 20px;
+}
+.email
+{
+    padding: 20px;
+}
+.subjects
+{
+    padding: 20px;
+}
+.query
+{
+    padding: 20px;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 20px;
+    margin: 0;
+}
+.buttons2
+{
+    float: left;
+    padding: 20px;
+    float: left;
+}
+.buttons3
+{
+    padding: 20px;
+    float: left;
+    height: 80px; 
+}
+
+/*Styles For Section 3*/
+.s3-img-container
+{
+    padding-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.s3-img-container h3
+{
+    text-align: center;
+}
+.s3-img-container p
+{
+    text-align: center;
+}
+.card-container
+{
+    width: 25%;
+    padding: 0 10px;
+    float: left;
+}
+.s3-img1
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: white;
+}
+.s4-img1
+{
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    float: left;
+    transition: 1s;
+}
+.s3-img1 img
+{
+    width: 100%;
+    transition: 1s;
+    border-radius: 10px;
+}
+.s3-img1 img:hover
+{
+    transition: 1s;
+    width: 90%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    object-fit:fill;
+    border-radius: 10px;
+}
+.s3-img1:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 1s;
+}
+.s3-card-title
+{
+    padding: 10px;
+    transition: 1s;
+    text-align: center;
+}
+.s3-card-title ul li
+{
+    text-align: left;
+}
+.s3-img2
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+    width: 40%;
+    border-radius: 5px;
+    float: left;
+}
+
+.sec4
+{
+    padding: 100px;
+}
+.empty
+{
+    padding: 100px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.form-only
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.form-left
+{
+    float: left;
+}
+.card-container2
+{
+    width: 50%;
+    float: left;
+}
+.card-container3
+{
+    float: left;
+    width: 50%;
+}
+#form-Output
+{
+    display: none;
+}
+textarea
+{
+    width:200px;
+}
+input
+{
+    width:200px;
+}
+.card-container2 label
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.f-subs
+{
+    width:208px;
+}
+.card-button
+{
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: deepskyblue;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+.card-button:hover
+{
+    background-color:dodgerblue;
+    transition: .5s;   
+}
+.card-button:active
+{
+    border: none;
+}
+.card-button2
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    /*margin-left: 35%;
+    margin-right: 35%;*/
+    background-color: deepskyblue;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+.card-button2:hover
+{
+    background-color:dodgerblue;
+    transition: .5s;
+    
+}
+.q-head
+{
+    padding: 50px;
+}
+/*Styles For Footer Footer*/
+
+.footer
+{
+    position: sticky;
+    top:100%;
+    width: 100%;
+    background-color:#111219;
+    color: white;
+    /*flex-direction: column;*/
+}
+.f-container
+{
+    display: flex;
+}
+.f-description
+{
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.f-desc-p
+{
+    font-weight:100;
+}
+.f-logo
+{
+    float: left;
+}
+.f-nav
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.f-nav a
+{
+    text-decoration: none;
+    transition: 1s;
+    color:lightskyblue;
+}
+.f-nav a:hover
+{
+    color:darkblue;
+}
+
+.f-contact
+{
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.c-details
+{
+    display: flex;
+}
+.c-names
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.c-links
+{
+    padding: 20px;
+}
+.c-links p a
+{
+    color:lightskyblue;
+    text-decoration: none;
+}
+.c-links p a:hover
+{
+    color:darkblue;
+    transition: 1s;
+}
+.f-coppy
+{
+    padding-top: 20px;
+    text-align: center;
+}
+.a-p-edit
+{
+    background-color: dodgerblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: .5s;
+}
+.a-p-edit:hover
+{
+    background-color:darkblue;
+    transition: .5s;
+}
+.page-e
+{
+    padding-top: 20px;
+    padding-right: 20px;
+    float: left;
+}
+.sec ul li
+{
+    padding: 5px;
+    font-size: 20px;
+    font-weight:300;
+}
+.s2-description p
+{
+    font-weight: 300;
+}
+
+/*card container stypes for page editor*/
+.card-container-pe
+{
+    width: 100%;
+    padding: 0 10px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+/*Stles for stykey header for page editor*/
+.nav-header-p
+{
+    position: fixed;
+    background-color:#414141;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /*padding: 10px 50px;*/
+    box-sizing: border-box;
+    transition: 1s;
+}
+.sticky-p
+{
+    background-color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+}

@@ -1,0 +1,447 @@
+!Doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Quiz</title>
+		<link rel="stylesheet" href="css/quiz_styles.css"></link>
+	</head>
+	<body>
+	  <h2 class="quizHead">QUIZ</h2>
+	  <div class="image">
+	  <img src="img/img_bg/img3.png" alt="img"/>
+	  </div>
+		<form id="quiz_tour" name="quiz_tour">
+	  	<table width="900px">
+		<tr>
+		<td>
+		
+			<div>
+			<p class="question">Q1</p>
+			<p>The ancient fortress known as Sigiriya Rock was built by King Kashyapa I to shield himself from potential attacks from his brother Moggallana, the rightful heir to the throne. 
+			This masterpiece has made many wonder about the technology at the time. Guess the number of steps to get to the top of the fortress?</p> 
+			<ul>
+			<input class="answer" type="radio" name="q1" value="w">
+	        <label> 884 steps</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="w">
+	        <label>1,021 steps</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="w">
+	        <label> 981 steps</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="r">
+	        <label id="correctString1">1,236 steps</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  </tr>
+	  <tr>
+	  <td>
+	  	<div>
+	  		<p class="question">Q2</p>
+			<p>Yuri Gagarin, Hero of the Soviet Union, the first man in space received many invitations 
+			from countries around the world to visit them. Which Heritage Hotel did he stay in, when he visited Sri Lanka on December 7 1961?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="w">
+	        <label> Mount Lavinia Hotel</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="r">
+	        <label id="correctString2">Galle Face Hotel</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="w">
+	        <label> Grand Oriental Hotel</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="w">
+	        <label> The Kingsbury</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">Q3</p>
+			<p>Sri Lanka being just over thrice the size of Kruger National Park in South Africa, it also has one of the highest rates of biological endemism in the world. In fact, it is home to 33 endemic species of birds and 21 endemic species of mammals. How many of the protected 
+			areas are declared as National Parks in Sri Lanka?</p> 
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="w">
+	        <label> 19 National Parks</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="r">
+	        <label id="correctString3">26 National parks</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="w">
+	        <label>32 National parks</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="w">
+	        <label>15 National parks</label>
+	    	</ul>
+		</div>
+	  </td>
+	  </tr>
+	  <tr>
+	  <td>
+	  	<div>
+	  		<p class="question">Q4</p>
+			<p>Sri Lanka is truly a paradise for avid birders for an adventure across scenic bird-rich landscapes! What is the best National Park for 
+			bird watching in Sri Lanka bordering the eastern coast of the island?</p>
+			
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="w">
+	        <label>Udawalawa National Park</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="w">
+	        <label>Yala National Park</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="r">
+	        <label id="correctString4">Kumana National Park</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="w">
+	        <label>Wilpattu National Park</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">Q5</p>
+			<p>Where does The Elephant Gathering (billed as one of the worlds' 
+			greatest animal spectacles) take place every year?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q5" value="w">
+	        <label>Yala National Park</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="r">
+	        <label id="correctString5">	Minneriya National Park</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="w">
+	        <label>	Udawalawe National Park</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="w">
+	        <label>	Wilpattu National Park  </label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">Q6</p>
+			<p>A protected area between Kandy and Ella covered by grassland and surrounded by cloud forests has enthralling small-wildlife and endemic flora. Which of the following is central highland’s UNESCO world 
+			heritage site in Sri Lanka?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q6" value="w">
+	        <label>Lion Rock Sigiriya </label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="w">
+	        <label>Dambulla Cave Temple </label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="r">
+	        <label id="correctString6">Horton Plains Nuwara Eliya </label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="w">
+	        <label>Yala National Park  </label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">Q7</p>
+			<p>A much-awaited time of the year in Sri Lanka is the Sinhala and Tamil 
+			New Year, where the beginning of the New Year as well as the ending of the old year happens at an auspicious times determined by astrologers. During which month of the year is this vibrant celebration of two cultures 
+			celebrated?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q7" value="r">
+	        <label id="correctString7">April</label>
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="w">
+	        <label>May</label>
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="w">
+	        <label>August</label>
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="w">
+	        <label>December</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">Q8</p>
+			<p>There’s a hipster-chic east coast village, famous for its surfing points that attract surfers from all over the world. Many of them make this beach their 
+			home during the surfing period -  which one is it?</p> 
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q8" value="w">
+	        <label>Nilaveli Beach</label>
+	        <br>
+	        <input class="answer" type="radio" name="q8" value="r">
+	        <label id="correctString8"> Arugam Bay</label>
+	        <br>
+	        <input class="answer" type="radio" name="q8" value="w">
+	        <label> Marble Beach</label>
+	        <br>
+	        <input class="answer" type="radio" name="q8" value="w">
+	        <label>Kalkudah Beach</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">Q9</p>
+			<p>With a history that dates back to the 3rd Century AD, 
+			this annual 10-day torchlight parade is one of the oldest and grandest 
+			of all festivals with fire breathers, jugglers and caparisoned elephants 
+			swaying to the rhythm of the drummers and encircled by hundreds of dancers paving the way for the elegant lead Tusker carrying the sacred Tooth Relic of the Buddha. 
+			What is this parade called?</p> 
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q9" value="w">
+	        <label>Vesak</label>
+	        <br>
+	        <input class="answer" type="radio" name="q9" value="w">
+	        <label>Sinhala and Tamil New Year</label>
+	        <br>
+	        <input class="answer" type="radio" name="q9" value="r">
+	        <label id="correctString9">Kandy Esala Perahara</label>
+	        <br>
+	        <input class="answer" type="radio" name="q9" value="w">
+	        <label> Thaipongal</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">Q10</p>
+			<p>On March 2, 1815 the Kingdom of Kandy was ceded to the British where the last king of Sri Lanka was deposed and taken as a royal prisoner by the British to Vellore Fort in Southern India. 
+			Who was the last King to reign over Sri Lanka?</p> 
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q10" value="w">
+	        <label>King Dutugemunu</label>
+	        <br>
+	        <input class="answer" type="radio" name="q10" value="w">
+	        <label>King Kashyapa</label>
+	        <br>
+	        <input class="answer" type="radio" name="q10" value="r">
+	        <label id="correctString10">King Sri Wickrama Rajasinha</label>
+	        <br>
+	        <input class="answer" type="radio" name="q10" value="w">
+	        <label>King Parakramabahu the Great
+
+</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	</table>
+
+<br>
+
+
+
+	
+	<div class="submitter">
+	<button id="submit-btn" type="button" onclick= "displayRadioValue()">
+		Submit 
+	</button> 
+	</div>
+		
+</form>	  
+		
+		
+	
+	<div class="container">
+      <div id="quiz-time-left">
+     </div>
+	  <div id="col">
+	  </div>
+   </div>
+
+	
+    <script>
+	
+		
+
+		
+		//question_area
+		var question1=document.forms["quiz_tour"]["q1"];
+		var question2=document.forms["quiz_tour"]["q2"];
+		var question3=document.forms["quiz_tour"]["q3"];
+		var question4=document.forms["quiz_tour"]["q4"];
+		var question5=document.forms["quiz_tour"]["q5"];
+		var question6=document.forms["quiz_tour"]["q6"];
+		var question7=document.forms["quiz_tour"]["q7"];
+		var question8=document.forms["quiz_tour"]["q8"];
+		var question9=document.forms["quiz_tour"]["q9"];
+		var question10=document.forms["quiz_tour"]["q10"];
+		//variable to keep track of the points
+		var correct=0;
+		var total = 10;
+		//Array for the questions
+		var questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10];
+		
+		
+		
+		//checking answer 
+		function displayRadioValue(){
+		
+		
+			if (question1.value=="r"){
+				correct+=2;
+			}
+			else{
+				correct--;
+			}
+			if (question2.value=="r"){
+				correct+=2;
+			}
+			else{
+				correct--;
+			}
+			if (question3.value=="r"){
+				correct+=2;
+			}
+			else{
+				correct--;
+			}
+			if (question4.value=="r"){
+				correct+=2;
+			}
+			else{
+				correct--;
+			}
+			if (question5.value=="r"){
+				correct+=2;
+			}
+			else{
+				correct--;
+			}
+			if (question6.value=="r"){
+				correct+=2;	
+			}
+			else{
+				correct--;
+			}
+			if (question7.value=="r"){
+				correct+=2;
+			}
+			else{
+				correct--;
+			}
+			if (question8.value=="r"){
+				correct+=2;
+			}
+			else{
+				correct--;
+			}
+			if (question9.value=="r"){
+				correct+=2;
+			}
+			else{
+				correct--;
+			}
+			if (question10.value=="r"){
+				correct+=2;
+			}
+			else{
+				correct--;
+			}
+		
+			
+			
+			
+			// stop timer
+			clearInterval(timer);
+			
+			// disable form
+			var elements = document.getElementById("quiz_tour").elements;
+			for (var i = 0, len = elements.length; i < len; ++i) {
+			elements[i].disabled = true;
+			
+			}
+			
+		//CSS for questions
+		var q = document.getElementById("col");
+		if (correct>=15){
+		  document.querySelector("body").style.background= "#cbf1f5"
+		}else if (correct>=10) {
+		  document.querySelector("body").style.background= "#f5c0c0"
+		}else if (correct>=5){
+		  document.querySelector("body").style.background= "#94ebcd"
+		}else{
+		  document.querySelector("body").style.background= "#c5d7bd"
+		}
+
+
+        q.innerHTML = "You got " + correct + " Marks" +
+        "<br />" + "You used " + (59 - Math.floor(total_seconds)) + " seconds";
+
+        return false;
+
+		
+			
+		}
+		
+	
+		
+		//Timer
+		var total_seconds = 60 * 1;
+        var c_minutes = parseInt(total_seconds / 60);
+        var c_seconds = parseInt(total_seconds % 60);
+        var timer;
+		
+		function CheckTime() {
+		document.getElementById("quiz-time-left").innerHTML = 'Time Left: ' + c_minutes + ' minutes ' + c_seconds + ' seconds ';
+
+		  if (total_seconds <= 0) {
+			score();
+		  } else {
+			total_seconds = total_seconds - 1;
+			c_minutes = parseInt(total_seconds / 60);
+			c_seconds = parseInt(total_seconds % 60);
+			timer = setTimeout(CheckTime, 1000);
+		  }
+		}
+		timer = setTimeout(CheckTime, 1000);
+
+
+		
+	
+        
+
+	
+	
+	
+		
+	
+	
+    
+		
+		
+		
+		
+
+			 
+		
+
+		
+	
+		
+	</script>
+</body>
+</html>

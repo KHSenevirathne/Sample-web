@@ -1,0 +1,235 @@
+
+.content h1{
+	color:#fff;
+	font-size:35px;
+	width:100%;
+	
+	text-align:center;
+	font-family:"Montserrat";
+	
+}
+.content p{
+	
+	font-size:25px;
+	margin:7px;
+	text-align:center;
+}
+.bottom{
+	background-color:red;
+}
+.content .underline{
+	left:25%;
+}
+.background{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+
+}	
+
+.quantity input[type="number"]{
+	width:15%;
+	border:1px solid lightgray;
+}
+.product-list{
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;	
+}
+.product-list h1{
+	color:#394252;
+}
+.product-list .card{
+	background-color:white;
+	border-radius:10px;
+	padding:1em;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	text-align:center;
+	font-family:"Montserrat";
+	/*width: 200px;*/
+}
+
+.card .title{
+	color:#54575c;
+	cursor:pointer;
+	font-size:20px;
+	font-weight:bold;
+	font-family:"Montserrat";
+}
+.card image{
+	max-width:100%;
+	border-radius:5px;
+}
+.card .text{
+	text-align:left;
+	margin-left:2em;
+	margin-bottom:0.5em;
+	font-size:15px;
+}
+.buy{
+	margin-left:65px;
+	margin-top:30px;
+	background-color: dodgerblue;
+	border:none;
+	padding:1em;
+	border-radius:5px;
+	font-weight:bold;
+	font-family:"Montserrat";
+	cursor:pointer;
+	width:50%;
+	transition:0.6s ease;
+	color:white;
+	transition: .5s;
+	
+}
+.buy:hover{
+	background-color:darkblue;
+	transition: .5s;
+}
+.product-container{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-column-gap:20px;
+	grid-row-gap:20px;
+}
+.align-center{
+	text-align:center;
+	padding:20px;
+	font-size:38px;
+}
+.sm-title{
+	
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.rating span{
+    color: #7AFA6B;
+}
+.product-name{
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+	font-family:"Montserrat";
+}
+.product-price{
+    padding-top: 0.6rem;
+    padding-right: 0.6rem;
+    display: inline-block;
+}
+.product-price:first-of-type{
+    text-decoration: line-through;
+    color: #5c80cd;
+}
+.text{
+	margin-top:10px;
+	padding:10px;
+	background-color:#edf4fa;
+	margin:10px;
+	width:78%;
+}
+.quantity{
+	margin-top:15px;		
+}
+.order-btn{
+	margin:5%;
+}
+.reset-btn{
+	margin:5%;
+}
+.btn-order{
+	background-color: dodgerblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: .5s;
+}
+.btn-order:hover{
+	background-color:darkblue;
+    transition: .5s;
+}
+.image img{
+	cursor:pointer;
+	margin:15px;
+    transition: transform 0.6s ease;
+}
+.card:hover .image img{
+    transform: scale(1.1);
+}
+
+.editer{
+	width:10%;
+	padding:10px;
+	margin:10px;
+	color:#000;
+	text-decoration:none;
+	font-family:sans-serif;
+	font-size:18px;
+}
+.editer:hover{
+	color:#fff;
+}
+
+/*Sahas*/
+
+section.sec-prod
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/product-bg.png");
+    background-size: cover;
+}
+.p-topic
+{
+	padding-bottom: 80px;
+}
+.f-left
+{
+	float: left;
+	padding-left: 20px;
+}
+.f-right
+{
+	float: left;
+}
+.col-25,.col-75
+{
+	padding: 20px;
+}
+.f-p-container
+{
+	display: flex;
+	flex-direction: row;
+	width: 41%;
+    margin: 0 auto;
+}
+.oder-button
+{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+.main-description-bp
+{
+    text-align: center;
+    padding-top: 43vh;
+    color: white;
+    transition: 1s;
+}
+.main-sticky-bp
+{
+    text-align: center;
+    padding-top: 50vh;
+    color: white;
+    transition: 1s;
+}

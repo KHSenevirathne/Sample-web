@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family:"Montserrat";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 9%;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer
+}
+.container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+#svgDiagram g:hover polyline,
+#svgDiagram g:hover line {
+    fill: none;
+    stroke-width: 3;
+    stroke: deepskyblue;
+    transition: 1s
+}
+#svgDiagram g polyline,
+#svgDiagram g line {
+    fill: none;
+    stroke-width: 2;
+    stroke: dodgerblue
+}
+#svgDiagram g:hover g text,
+#svgDiagram g:hover text {
+    font-weight: bold;
+    transition: 1s
+}
+#svgDiagram g:hover rect,
+#svgDiagram g:focus rect {
+    fill: hsla(24, 20%, 50%,.3);
+    stroke: deepskyblue;
+    stroke-width: 3;
+    transition: 1s;
+}
+#svgDiagram rect {
+    stroke: dodgerblue;
+    stroke-width: 2;
+    fill: none
+}
+text {
+    fill: white;
+    font-size: 16px;
+}
+.svg-cont{
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}

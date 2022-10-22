@@ -1,0 +1,147 @@
+#bodyId {
+    margin: 0;
+    padding: 0;
+    font-family:"Montserrat";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white
+}
+.thumb-img {
+    padding-top: 0;
+    transition: 1s;
+    width: 100%
+}
+.thumb-img-container {
+    padding-top: 0;
+    display: flex;
+}
+.thumb-img-container h3 {
+    text-align: center;
+}
+.thumb-card-container {
+    padding: 0.6%;
+    cursor: pointer;
+    transition: 2s
+}
+.thumb-imgs {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    float: left;
+}
+.thumb-imgs img {
+    border-radius: 10px;
+    width: 100%
+}
+.thumb-imgs:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 1s;
+    width: 480px;
+    object-fit: none;
+    opacity: 0.9
+}
+.thumb-card-title {
+    padding: 2px 16px;
+    color: midnightblue
+}
+.thumb-description p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: midnightblue;
+    padding-top: 0
+}
+/*expanded image*/
+#imgShow {
+    width: 50%;
+    border-radius: 10px;
+    padding: 5%;
+    color: midnightblue;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+#imgShow:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 2s;
+    object-fit: none
+}
+.imageViewer {
+    padding-bottom: 5%;
+    display: block;
+    text-align: center
+}
+/*select menus*/
+#coloursChanger {
+    display: block;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#coloursChanger select {
+    display: block;
+    position: relative;
+    background-color: white
+}
+#coloursChanger #selectModeLabel, #selectTextModeLabel, select, option {
+    color: midnightblue
+}
+/*description*/
+#imgDescription {
+    color: midnightblue;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+#imgDescription:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 2s;
+    object-fit: none
+}
+.closebtn{
+    cursor: pointer
+}
+
+/*from main*/
+
+.content{
+    padding-top: 20vh;
+}
+.nav-header-ti{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /*padding: 10px 50px;*/
+    box-sizing: border-box;
+    transition: 1s;
+    z-index: 1;
+}
+.sticky-ti{
+    background-color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+    z-index: 1;
+}
+.content{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+.sec1-thumb{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/thumb-bg.png");
+    background-size: cover;
+}
