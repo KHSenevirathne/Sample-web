@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Thumbnail Images</title>
+        <link rel="stylesheet" type="text/css" href="css/thumbnail_images.css"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body id="bodyId">
+        <!--navigation bar-->
+        <nav class="nav-header-ti" id="header">
+            <a href="index.html">
+                <div class="h-logo">
+                    <img id="h-icon" src="img/logo.png" alt="logo">
+                </div>
+                <div class="h-title" id="nav-title">
+                    Wanderlust
+                </div>
+            </a>
+            <ul class="h-ul" id="nav-anc">
+                <li><a href="#" class="active">Thumbnails</a></li>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="product_Page.html">Products</a></li>
+                <li><a href="student_details.html">Students</a></li>
+            </ul>
+        </nav>
+
+        <section class="sec1-thumb">
+            <div class="main-description" id="main-title">
+                <div class="m-title">
+                    Watch Our Thumbnail Images
+                </div>
+                <div class="s-title">
+        
+                </div>
+                <div class="m-buttons">
+                    <a href="#thumb-img">Watch Now !</a>
+                </div>
+            </div>
+        </section>
+        
+        <!--change background colour and text colour-->
+        <section class="content" id="thumb-img">
+            <div id="coloursChanger">
+                <label id="selectModeLabel">Select Page Background Colour Here:</label>
+                <select id="selectMode" onclick="changeMode()">
+                    <option value="white" id="optColorChange1">White</option>
+                    <option value="dodgerblue" id="optColorChange2">Dodger Blue</option>
+                    <option value="greenyellow" id="optColorChange3">Green Yellow</option>
+                    <option value="deeppink" id="optColorChange4">Deep Pink</option>
+                    <option value="darkviolet" id="optColorChange5">Dark Violet</option>
+                </select>
+                <br/>
+                <label id="selectTextModeLabel">Select Page Text Colour Here:</label>
+                <select id="selectTextMode" onclick="changeTextMode()">
+                    <option value="midnightblue" id="optTextColorChange1">Midnight Blue</option>
+                    <option value="silver" id="optTextColorChange2">Silver</option>
+                    <option value="gold" id="optTextColorChange3">Gold</option>
+                    <option value="crimson" id="optTextColorChange4">Crimson</option>
+                    <option value="forestgreen" id="optTextColorChange5">Forest Green</option>
+                </select>
+            </div>
+            <section class="thumb-img">
+                <div class="container">
+                    <div class="thumb-description">
+                        <p id="heading">Thumbnail Images</p>
+                    </div>
+                    <div class="thumb-img-container">
+                        <div class="thumb-card-container">
+                            <div class="thumb-imgs">
+                                <img src="img/thumbnails/galle.jpg" alt="Galle is the capital city of the Southern Province of Sri Lanka. The town has a World Heritage Site to its name and that is predominantly responsible for its popularity with tourists." class="image" id="galle" onmouseover="imgLarger(this);"/>
+                                <div class="thumb-card-title">
+                                    <h3 id="cardTitle1">Galle</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumb-card-container">
+                            <div class="thumb-imgs">
+                                <img src="img/thumbnails/kandy.jpg" alt="Kandy is both an administrative and religious city and is also the capital of the Central Province. Kandy is the home of the Temple of the Tooth Relic (Sri Dalada Maligawa)." class="image" id="kandy" onmouseover="imgLarger(this);"/>
+                                <div class="thumb-card-title">
+                                    <h3 id="cardTitle2">Kandy</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumb-card-container">
+                            <div class="thumb-imgs">
+                                <img src="img/thumbnails/jaffna.jpg" alt="Jaffna (Tamil: Yāḻppāṇam) is the capital city of the Northern Province of Sri Lanka. It is the administrative headquarters of the Jaffna District located on a peninsula of the same name." class="image" id="jaffna" onmouseover="imgLarger(this);"/>
+                                <div class="thumb-card-title">
+                                    <h3 id="cardTitle3">Jaffna</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumb-card-container">
+                            <div class="thumb-imgs">
+                                <img src="img/thumbnails/nuwara-eliya.jpg" alt="Nuwara Eliya is a city in the hill country of the Central Province, Sri Lanka. The city is the administrative capital of Nuwara Eliya District, with a picturesque landscape and temperate climate." class="image" id="nuwaraEliya" onmouseover="imgLarger(this);"/>
+                                <div class="thumb-card-title">
+                                    <h3 id="cardTitle4">Nuwara Eliya</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumb-card-container">
+                            <div class="thumb-imgs">
+                                <img src="img/thumbnails/anuradhapura.jpg" alt="Anuradhapura is one of the ancient capitals of Sri Lanka, famous for its well-preserved ruins of an ancient Sinhala civilization. It was the third capital of the kingdom of Rajarata." class="image" id="anuradhapura" onmouseover="imgLarger(this);"/>
+                                <div class="thumb-card-title">
+                                    <h3 id="cardTitle5">Anuradhapura</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <br/><br/><br/><br/>
+                <div class="imageViewer">
+                    <img id="imgShow" alt="Expanded Image Loads Here" src="#"/>
+                    <br/>
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    <br/><br/><br/><br/>
+                    <span id="imgDescription">Description Loads Here</span>
+                </div>
+            </section>
+    
+        </section>
+        
+        <!--footer-->
+        <div class="footer">
+            <div class="f-container">
+                <div class="f-description">
+                    <div class="f-title">
+                        <div class="f-logo">
+                            <img src="img/logo.png" alt="logo">
+                        </div>
+                        <div class="f-title">
+                        <h1>Wanderlust</h1>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p class="f-desc-p">Through our exceptionally curated occasion bundles, 
+                            we need to take you on an adventure where you personally 
+                            enjoy with the stunning magnificence of Sri Lanka. We need you to
+                             observe sensational scenes that are a long ways past 
+                             your creative ability.
+                        </p>
+                        <div class="page-e">
+                            <a class="a-p-edit" href="page_editor_4.html">Page Editor</a>
+                        </div>
+                        <div class="page-e">
+                            <a class="a-p-edit" href="svg_diagram.html">SVG</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-nav">
+                    <h1>Links</h1>
+                    <div class="f-nav-a">
+                        <p><a href="#" class="active">Thumbnails</a></p>
+                        <p><a href="main.html">Home</a></p>
+                        <p><a href="quiz.html">Quiz</a></p>
+                        <p><a href="product_Page.html">Products</a></p>
+                        <p><a href="student_details.html">Students</a></p>
+                    </div>
+                </div>
+                <div class="f-contact">
+                    <h1>Contact Us</h1>
+                    <div class="c-details">
+                        <div class="c-names">
+                            <p>Address</p>
+                            <p>E-Mail</p>
+                            <p>Telephone</p>
+                        </div>
+                        <div class="c-links">
+                            <p><a href="mailto:admin.contact@wanderlust.com">98, Park Street, Colombo 02</a></p>
+                            <p><a href="mailto:admin.contact@wanderlust.com">admin.contact@wanderlust.com</a></p>
+                            <p><a href="tel:011-892-8976">011 892 8976</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-coppy">
+                <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Wanderlust All Rights Reserved</p>
+            </div>
+        </div>
+        
+        <script src="js/thumbnail_images.js"></script>
+        <script src="js/thumb.js"></script>
+    </body>
+</html>

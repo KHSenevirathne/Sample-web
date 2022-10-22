@@ -1,0 +1,397 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Product Page</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/product_styles.css">
+		
+	</head>
+	<body>
+		<nav class="nav-header" id="header">
+            <a href="index.html">
+                <div class="h-logo">
+                    <img id="h-icon" src="img/logo.png" alt="hIcon">
+                </div>
+                <div class="h-title" id="nav-title">
+                    Wanderlust
+                </div>
+            </a>
+            <ul class="h-ul" id="nav-anc">
+                <li><a href="#" class="active">Products</a></li>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="thumbnail_images.html">Thumbnails</a></li>
+                <li><a href="student_details.html">Students</a></li>
+            </ul>
+        </nav>
+
+		<section class="sec-prod">
+            <div class="main-description-bp" id="main-title">
+                <div class="m-title">
+                    Enjoy Special Discounts with<br>Season Offers !!!
+                </div>
+                <div class="s-title">
+                </div>
+                <div class="m-buttons">
+                    <a href="#product-list">Shop Now</a>
+                </div>
+            </div>
+        </section>
+		
+			<section class="product-list" id="product-list">
+				<div class="p-topic">
+					<p class="align-center">Checkout What We Have For You</p>
+				</div>
+					<div class="product-container">
+					
+						<div class="card">
+							<div class="title">
+								Traditional Sri Lankan Wooden Masks
+							</div>
+							<div class="image">
+								<img src="img/mask.jpg" width="370" height="250" alt="mask">
+							</div>
+							<div class="text">
+								<h2 class = "sm-title">lifestyle</h2>
+					
+								<div class="product-name">
+									Masks used in various dramatic rituals in Sri Lanka
+								</div>
+								<p class = "product-price">Rs. 4100.00</p>
+								<p class = "product-price">Rs. 3500.00</p>
+								<div class="quantity">
+									<label for="product1">Quantity:</label>
+									<input id="product1" type="number" name="PQuantity" min="0">
+								
+								</div>
+								<button class="buy" onClick="addProduct1()">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+						
+						<!--Second Product-->
+						<div class="card">
+							<div class="title">
+								Mens Travelling Backpack
+							</div>
+							<div class="image">
+								<img src="img/bag.png" width="300" height="280" alt="backpack">
+							</div>
+							<div class="text">
+								<h2 class = "sm-title">lifestyle</h2>
+					
+								<div class="product-name">
+									New Backpack DN23XX<br/>
+									New Product.
+								</div>
+								<p class = "product-price">Rs. 3600.00</p>
+								<p class = "product-price">Rs. 2500.00</p>
+								<div class="quantity">
+									<label for="product2">Quantity:</label>
+									<input id="product2" type="number" name="PQuantity" min="0">
+								
+								</div>
+								<button class="buy" onClick="addProduct2()">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+						
+						<div class="card">
+							<div class="title">
+								TOICA Hats for Travelling
+							</div>
+							<div class="image">
+								<img src="img/hat.png" width="300" height="280" alt="hat">
+							</div>
+							<div class="text">
+								<h2 class = "sm-title">lifestyle</h2>
+					
+								<div class="product-name">
+									Sun Hat & Cap for Women & Girls above 17 year old
+								</div>
+								<p class = "product-price">Rs. 1800.00</p>
+								<p class = "product-price">Rs. 1100.00</p>
+								<div class="quantity">
+									<label for="product3">Quantity:</label>
+									<input id="product3" type="number" name="PQuantity" min="0">
+								
+								</div>
+								<button type="button" class= "buy" onClick="addProduct3()">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+						
+						<div class="card">
+							<div class="title">
+								Hawaiian Shirt – Flamingo Bay
+							</div>
+							<div class="image">
+								<img src="img/shirt.png" width="300" height="280" alt="shirt">
+							</div>
+							<div class="text">
+								<h2 class = "sm-title">lifestyle</h2>
+					
+								<div class="product-name">
+									Cool mint green background. Made in Hawaii of 100% cool cotton.
+								</div>
+								<p class = "product-price">Rs. 1850.00</p>
+								<p class = "product-price">Rs. 1650.00</p>
+								<div class="quantity">
+									<label for="product4">Quantity:</label>
+									<input id="product4" type="number" name="PQuantity" min="0">
+								
+								</div>
+								<button type="button" class="buy" onclick="addProduct4()">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+						<div class="card">
+							<div class="title">
+								Elephant Design Hand Bag (Yellow) with Wooden Handle
+							</div>
+							<div class="image">
+								<img src="img/bathik-bag.png" width="280" height="250" alt="handBag">
+							</div>
+							<div class="text">
+								<h2 class = "sm-title">lifestyle</h2>
+					
+								<div class="product-name">
+									This batik bag is designed by the Sri Lankan craftsmen using the Elephant’s image in yellow background.
+								</div>
+								<p class = "product-price">Rs. 3000.00</p>
+								<p class = "product-price">Rs. 2470.00</p>
+								<div class="quantity">
+									<label for="product5">Quantity:</label>
+									<input id="product5" type="number" name="PQuantity" min="0">
+								
+								</div>
+								<button type="button" class= "buy" onClick="addProduct5()">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+						<div class="card">
+							<div class="title">
+								Hiking Camping Portable Dome Tent
+							</div>
+							<div class="image">
+								<img src="img/tent.png" width="220" height="250" alt="Tent">
+							</div>
+							<div class="text">
+								<h2 class = "sm-title">lifestyle</h2>
+					
+								<div class="product-name">
+									Easy to Carry, Quick to Set Up and Fold Down.Automatic Tent Body Sets Up Instantly By A Single Person.
+								</div>
+								<p class = "product-price">Rs. 7000.00</p>
+								<p class = "product-price">Rs. 6300.00</p>
+								<div class="quantity">
+									<label for="product6">Quantity:</label>
+									<input id="product6" type="number" name="PQuantity" min="0">
+								</div>
+								<button type="button" class= "buy" onClick="addProduct6()">
+									Add to Cart
+								</button>
+							</div>
+						
+						</div>
+						<div class="card">
+							<div class="title">
+								Brass Elephant Statue
+							</div>
+							<div class="image">
+								<img src="img/elephant.png" width="300" height="280" alt="Statue">
+							</div>
+							<div class="text">
+								<h2 class = "sm-title">lifestyle</h2>
+					
+								<div class="product-name">
+									 Interior Decor, New Product<br/>Size/dimension: 6 Inch<br/>Protection and gool Quality.
+								</div>
+								<p class = "product-price">Rs. 5700.00</p>
+								<p class = "product-price">Rs. 4900.00</p>
+								<div class="quantity">
+									<label for="product7">Quantity:</label>
+									<input id="product7" type="number" name="PQuantity" min="0">
+								
+								</div>
+								<button type="button" class= "buy" onClick="addProduct7()">
+									Add to Cart
+								</button>
+							</div>
+							
+						</div>
+						<div class="card">
+							<div class="title">
+								Sri Lanka traditional wall mask
+							</div>
+							<div class="image">
+								<img src="img/mask2.png" width="300" height="280" alt="wallMask">
+							</div>
+							<div class="text">
+								<h2 class = "sm-title">lifestyle</h2>
+					
+								<div class="product-name">
+									Gini raksha kaduru wood, natural paint
+								</div>
+								<p class = "product-price">Rs. 5200.00</p>
+								<p class = "product-price">Rs. 4800.00</p>
+								<div class="quantity">
+									<label for="product8">Quantity:</label>
+									<input id="product8" type="number" name="PQuantity" min="0">
+								</div>
+								<button type="button" class= "buy" onClick="addProduct8()">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+					<div class="card">
+						<div class="title">
+							Travelling Sheos
+						</div>
+						<div class="image">
+							<img src="img/shoe.png" width="300" height="280" alt="Shoes">
+						</div>
+						<div class="text">
+							<h2 class = "sm-title">lifestyle</h2>
+				
+							<div class="product-name">
+								Men Hiking Shoes Traveling Shoes
+							</div>
+							<p class = "product-price">Rs. 7200.00</p>
+							<p class = "product-price">Rs. 5800.00</p>
+							<div class="quantity">
+								<label for="product9">Quantity:</label>
+								<input id="product9" type="number" name="PQuantity" min="0">
+							</div>
+							<button type="button" class= "buy" onClick="addProduct9()">
+								Add to Cart
+							</button>
+						</div>
+					</div>
+				</div>
+					
+						
+					
+			
+			</section>
+			<div class="background">
+				<div class="content">
+					<p class="align-center">Please Fill the Information First:</p>
+					<form method="get" action="/action_page.php" name="myform" onsubmit="return validateForm()">
+						<div class="f-p-container">
+							<div class="f-left">
+								<div class="col-25">
+									<label for="fname">First Name</label>
+								</div>
+								<div class="col-25">
+									<label for="lname">Last Name</label>
+								</div>
+								<div class="col-25">
+									<label for="email">Email Address</label>
+								</div>
+								<div class="col-25">
+									<label for="mobi">Mobile Number</label>
+								</div>
+							</div>
+							<div class="f-right">
+								<div class="col-75">
+									<input type="text" id="fname" name="fname" placeholder="Enter your First name"/>
+								</div>
+								<div class="col-75">
+									<input type="text" id="lname" name="lname" placeholder="Enter your Last Name"/>
+								</div>
+								<div class="col-75">
+									<input type="text" id="email" name="email"  placeholder="Enter your Email"/>
+								</div>
+								<div class="col-75">
+									<input type="text" id="mobi" name="mobi"  placeholder="Enter Mobile Number"/>
+								</div>
+							</div>
+						</div>
+						
+						
+						
+						
+					</form>
+					<div class="order-btn">
+						<p class="align-center">
+						<button class="btn-order" type="button" onClick="validateForm()">
+							Place Order
+						</button>
+					</p>
+					</div>
+				
+				</div>
+			</div>			
+		
+			
+        <!--Footer-->
+
+       <div class="footer">
+            <div class="f-container">
+                <div class="f-description">
+                    <div class="f-title">
+                        <div class="f-logo">
+                            <img src="img/logo.png" alt ="logoFooter">
+                        </div>
+                        <div class="f-title">
+                        <h1>Wanderlust</h1>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p class="f-desc-p">Through our exceptionally curated occasion bundles, 
+                            we need to take you on an adventure where you personally 
+                            enjoy with the stunning magnificence of Sri Lanka. We need you to
+                             observe sensational scenes that are a long ways past 
+                             your creative ability.
+                        </p>
+                        <div class="page-e">
+                            <a class="a-p-edit" href="page_editor_1.html">Page Editor</a>
+                        </div>
+						<div class="page-e">
+                            <a class="a-p-edit" href="svg_diagram.html">SVG</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-nav">
+                    <h1>Links</h1>
+                    <div class="f-nav-a">
+                        <p><a href="#" class="active">Products</a></p>
+                        <p><a href="main.html">Home</a></p>
+                        <p><a href="quiz.html">Quiz</a></p>
+                        <p><a href="thumbnail_images.html">Thumbnails</a></p>
+						<p><a href="student_details.html">Students</a></p>
+                    </div>
+                </div>
+                <div class="f-contact">
+                    <h1>Contact Us</h1>
+                    <div class="c-details">
+                        <div class="c-names">
+                            <p>Address</p>
+                            <p>E-Mail</p>
+                            <p>Telephone</p>
+                        </div>
+                        <div class="c-links">
+                            <p><a href="">98, Park Street, Colombo 02</a></p>
+                            <p><a href="mailto:admin.contact@wanderlust.com">admin.contact@wanderlust.com</a></p>
+                            <p><a href="tel:011-892-8976">011 892 8976</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-coppy">
+                <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Wanderlust All Rights Reserved</p>
+            </div>
+        </div>
+			
+		
+	<script src="js/production_scripts.js"></script>
+	
+	</body>
+</html>
