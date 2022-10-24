@@ -1,2 +1,2 @@
 # Sample-web
-Website sample
+Website sample for buying and selling
